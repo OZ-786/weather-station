@@ -183,7 +183,7 @@ function liveTimerUpdtFun() {
      // data freshness warning
      var Freshness = ((new Date().getTime()-d)/1000);
 	 if(alertDone==false && Freshness>4600){
-	 alert('The data '+ Math.round(Freshness) + ' Sec old. SmartHome is probably offline!');
+	 alert('The data '+ Math.round(Freshness) + ' Sec old. weather station is probably offline!');
 	 alertDone=true;
 	 }
 	 // data freshness info
@@ -290,7 +290,7 @@ function liveTimerUpdtFun() {
           </a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link text-white " href="https://oz-786.github.io/WETHERSTATION/chart">
+          <a class="nav-link text-white " href="./chart.html">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
